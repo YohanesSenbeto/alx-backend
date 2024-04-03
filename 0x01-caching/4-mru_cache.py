@@ -29,4 +29,3 @@ class MRUCache(BaseCaching):
             self.cache_data[key] = value
             return value
         return None
-
